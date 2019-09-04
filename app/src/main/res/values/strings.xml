@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Evoke</string>
+    <string name="app_description">
+        Bienvenido a la plataforma de aprendizaje evoke interactivo, esperamos que te diviertaas aprendiendo, esa es nuestra meta.
+    </string>
+    <string name="boton_login">INGRESAR</string>
+    <string name="boton_regis">REGISTRARSE</string>
+    <string name="descrip_logo">Logo ADDMIN</string>
+    <string name="descrip_fb">Logo Facebook</string>
+    <string name="descrip_tw">Logo Tweeter</string>
+    <string name="descrip_go">Logo Google</string>
+    <string name="input_correo">Correo</string>
+    <string name="input_password">Contraseña</string>
+    <string name="title_activity_main2">Evoke</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_pqrs">Generar PQRS</string>
+    <string name="menu_reservations">Generar Reserva</string>
+    <string name="menu_payment">Generar Pago</string>
+    <string name="menu_logunt">Salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragmento Inicio</string>
+    <string name="inicio_fragment">Fragmento Perfil</string>
+    <string name="comic">comic</string>
+    <string name="titulo">Titulo</string>
+    <string name="subtitulo">Subtitulo, pequeña descripcion de la imagen expuesta</string>
+    <string name="like">Like</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_misiones">Misiones</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_incentivo">Incentivo</string>
+</resources>

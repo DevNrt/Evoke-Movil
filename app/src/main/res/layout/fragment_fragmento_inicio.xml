@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        app:srcCompat="@drawable/galeria" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            android:minHeight="280dp">
+
+            <!-- Card contents. -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/darksite"/>
+
+            <TextView
+                android:id="@+id/text_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="160dp"
+                android:shadowColor="#00000000"
+                android:text="@string/titulo"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitulo"
+                android:layout_marginTop="180dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/like"
+                android:background="@drawable/like"
+                android:textColor="#FFFF"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/menu_share"
+                android:background="@drawable/botonredondo"
+                android:textColor="#FFFF"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="110dp"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="290dp">
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.MaterialComponents.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mtrl_card_spacing"
+                android:layout_marginTop="@dimen/mtrl_card_spacing"
+                android:layout_marginRight="@dimen/mtrl_card_spacing"
+                android:minHeight="280dp">
+
+                <!-- Card contents. -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/help"/>
+
+                <TextView
+                    android:id="@+id/text_gallery2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="160dp"
+                    android:shadowColor="#00000000"
+                    android:text="@string/titulo"
+                    android:textIsSelectable="false"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subtitulo"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/like"
+                    android:background="@drawable/like"
+                    android:textColor="#FFFF"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/menu_share"
+                    android:background="@drawable/botonredondo"
+                    android:textColor="#FFFF"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginLeft="110dp"/>
+
+
+            </com.google.android.material.card.MaterialCardView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+</ScrollView>
